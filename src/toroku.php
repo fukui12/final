@@ -1,6 +1,4 @@
-<?php
-session_start();
-?>
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -12,17 +10,8 @@ session_start();
 <h2>新規管理者登録</h2>
     
 <form action="toroku_ok.php" method="post">
-<?php
-    $brand_name=$category_id='';
-    if(isset($_SESSION['Buy'])){
-        $brand_name=$_SESSION['Buy']['brand_name'];
-        $category_id=$_SESSION['Buy']['category_id'];
-    }
-    
-    echo 'ブランド名：<input type="text" name="brand_name" required>';
-    echo 'カテゴリー名：<input type="text" name="category_id" required>';
-?>
-    
+    ブランド名：<input type="text" name="brand_name" required><br>
+    商品名：<input type="text" name="category_id" required> 
     <p><button type="submit">登録</button></p>
 </form>
 <form action="home.php" method="post">
