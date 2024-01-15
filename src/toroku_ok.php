@@ -18,8 +18,8 @@ $pdo=new PDO($connect,USER,PASS);
         ?>
     <h2>登録完了</h2>
     登録が完了しました。
-    <form action="home.php" method="post">
-    <button type="submit">ホームへ</button>
+    <form action="itiran.php" method="post">
+    <button type="submit">一覧画面へ</button>
     </form>
     
     <form action="toroku.php" method="post">
