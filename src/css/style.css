@@ -1,0 +1,13 @@
+body{
+    background-color: #f5c3ed;
+    margin:auto;
+    
+}
+button{
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    background:#fbfcfd;
+    color: #010c13;  
+  }
